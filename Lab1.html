@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>#outputmsg{display: none;}</style>
+<title>Login</title>
+</head>
+
+<body>
+	<h1>Login Page</h1>
+	
+	<form action="#" method="post" id="loginForm" name="login">	
+	
+		<fieldset>
+			<legend>User Authentication</legend>
+
+			<p><label for="username">Username:</label>
+			<input type="text" id="username" name="login__username" /></p>
+
+			<p><label for="password">Password:</label>
+			<input type="text" id="password" name="login__password" /></p>
+ 
+		<p>
+			<input type="submit" value="Login" name="submit" />
+		</p>
+
+		</fieldset>
+	</form>
+	
+<div id="outputmsg">
+	<div>
+		<p>Username is <span id="outputUser"></span>.</p>
+		<p>Password is <span id="outputPass"></span>.</p>
+	</div>
+</div>
+	
+<script type="text/javascript" src="Lab1.js"></script> 
+	
+</body>
+</html>
